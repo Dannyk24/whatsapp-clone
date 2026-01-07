@@ -161,7 +161,7 @@ let chatRightSection = document.querySelector('.chat-right-section')
 
 const defaultActiveChatsTemplate = `
     <div class="default-active-chat-template">
-        <img src="/IMAGES/AVATARS/WHATSAPP-DP.jpg" alt="">
+        <img src="IMAGES/AVATARS/WHATSAPP-DP.jpg" alt="">
         <p><i class="fas fa-lock"></i>Your personal messages are<span> end to end encrypted</span></p>
     </div>
 `
