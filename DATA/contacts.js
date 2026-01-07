@@ -14,10 +14,10 @@ export let contacts = JSON.parse(localStorage.getItem('contacts')) || [
     },
     {
         id: 'id2',
-        image:'IMAGES/AVATARS/WHATSAPP DP.jpg',
+        image:'IMAGES/AVATARS/WHATSAPP-DP.jpg',
         name:'Whatsapp ☑️',
         phoneNumber: 9013151297,
-        wallpaper: 'IMAGES/AVATARS/WHATSAPP DP.jpg',
+        wallpaper: 'IMAGES/AVATARS/WHATSAPP-DP.jpg',
         state:'unread',
         messages:[
             {
