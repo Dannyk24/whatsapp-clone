@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messaging App</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="nav-items-top">
+                
+                <div class="nav-item" data-section="chats">
+                    <i class="far fa-comment-alt"></i>
+                    <div class="tooltip">Chats</div>
+                    <div class="unread-flag" id="chat-unread-flag"></div>
+                </div>
+
+                <div class="nav-item" data-section="status">
+                    <i class="fas fa-circle-notch"></i>
+                    <div class="tooltip">Status</div>
+                    <div class="unread-flag"></div>
+                </div>
+
+                <div class="nav-item" data-section="channels">
+                    <i class="fas fa-bullhorn"></i>
+                    <div class="tooltip">Channels</div>
+                    <div class="unread-flag"></div>
+                </div>
+
+                <div class="nav-item" data-section="communities">
+                    <i class="fas fa-users"></i>
+                    <div class="tooltip">Communities</div>
+                    <div class="unread-flag"></div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="nav-item" data-section="meta-ai">
+                    <i class="fab fa-meta"></i>
+                    <div class="tooltip">Meta AI</div>
+                </div>
+            </div>
+
+            <div class="nav-items-bottom">
+
+                    <div class="nav-item" data-section="media">
+                        <i class="fas fa-images"></i>
+                        <div class="tooltip">Media</div>
+                    </div>
+
+                    <div class="nav-item" data-section="settings">
+                        <i class="fas fa-cog"></i>
+                        <div class="tooltip">Settings</div>
+                    </div>
+
+                    <div class="nav-item user-dp" data-section="profile">
+                        <img src="IMAGES/AVATARS/USER AVATAR.jpg" alt="profile-picture">
+                        <div class="tooltip">Profile</div>
+                    </div>
+
+            </div>
+        </aside>
+
+        <section class="left-section">
+            <section class="chat-section">
+                <div class="header-container">
+                    <div class="header-top">
+                        <h2>Whatsapp</h2>
+                        <div class="action-buttons">
+                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+                    <div class="search-bar-container">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Ask meta AI anything" class="main-search-bar">
+                    </div>
+                    <div class="chats-filter-container">
+                        <button class="chat-filter-group active-chat-filter-group">All</button>
+                        <button class="chat-filter-group">Unread</button>
+                        <button class="chat-filter-group">Favourites</button>
+                        <button class="chat-filter-group">Groups</button>
+                    </div>
+                </div>
+
+                <div class="chat-list">
+                </div>
+                <div class="bottom-overlay"></div>
+            </section>
+        </section>
+
+        <section class="right-section">
+            <div class="chat-right-section">
+                    
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
+
+
