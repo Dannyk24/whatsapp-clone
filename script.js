@@ -415,3 +415,4 @@ searchElem.addEventListener('input',()=>{
 function handleSearch(){
     console.log('coming soon');
 }
+restoreDefaultState()

@@ -172,6 +172,27 @@ export let contacts = JSON.parse(localStorage.getItem('contacts')) || [
                 type: 'sent',
                 status: 'delivered'
             },
+            {
+                text:'Daniel im gayyyy 😭😭',
+                time: getCurrentTime(),
+                type: 'recieved',
+                status: 'delivered',
+                state: 'read'
+            },
+            {
+                text:'Dont tell anyone o😭',
+                time: getCurrentTime(),
+                type: 'recieved',
+                status: 'delivered',
+                state: 'unread'
+            },
+            {
+                text:'Hwfr do me 2k too',
+                time: getCurrentTime(),
+                type: 'recieved',
+                status: 'delivered',
+                state: 'unread'
+            }
         ]
     },
     {
@@ -201,6 +222,13 @@ export let contacts = JSON.parse(localStorage.getItem('contacts')) || [
                 status: 'delivered',
                 state: 'unread'
             },
+            {
+                text:'I dey seriously find 2k',
+                time: getCurrentTime(),
+                type: 'recieved',
+                status: 'delivered',
+                state: 'unread'
+            }
         ]
     },
     {
@@ -254,5 +282,4 @@ export let contacts = JSON.parse(localStorage.getItem('contacts')) || [
             },
         ]
     },
-
 ]
