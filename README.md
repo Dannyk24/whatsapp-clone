@@ -71,4 +71,4 @@ Data will reset if localStorage is cleared
 Designed for learning and practice purposes
 
 
-![Chat UI Screenshot](./IMAGES/screenshot.png)
+![Chat UI Screenshot](IMAGES/screenshot.png)
